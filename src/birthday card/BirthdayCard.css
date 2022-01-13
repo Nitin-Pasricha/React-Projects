@@ -1,0 +1,60 @@
+body {
+  background-color: #f28ab2;
+  margin: 0;
+}
+.bdy-card {
+  display: grid;
+  background-color: white;
+  width: 400px;
+  margin: 5rem auto;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+.heading {
+  letter-spacing: 0.05rem;
+  color: grey;
+  padding-left: 2rem;
+}
+.container {
+  display: block;
+  margin: 1rem 2rem;
+}
+img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+}
+.person {
+  position: relative;
+  padding: 0;
+  float: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.person h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+.person p {
+  color: grey;
+}
+
+.btn {
+  background-color: #f28ab2;
+  border: transparent;
+  color: white;
+  margin: 0 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hotpink;
+}

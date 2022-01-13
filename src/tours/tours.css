@@ -1,0 +1,124 @@
+body {
+  background-color: khaki;
+  margin: 0;
+}
+main {
+  width: 95vw;
+}
+.tours {
+  display: grid;
+  margin: 2rem auto;
+  justify-content: center;
+  place-items: center;
+}
+.tours h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.underline {
+  width: 6rem;
+  height: 4px;
+  background-color: blue;
+  border: transparent;
+  display: block;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.tour {
+  background-color: white;
+  display: grid;
+  border: 1px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.info {
+  color: grey;
+  text-align: justify;
+  padding: 0 1rem;
+  letter-spacing: 0.05rem;
+  padding-top: 0;
+}
+.img {
+  height: 355px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-bottom: 0;
+}
+.img img {
+  height: 355px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.tour h4 {
+  padding: 0 1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+}
+.name,
+.price {
+  padding: 0 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.name {
+  position: relative;
+}
+.price {
+  position: relative;
+  float: right;
+  background-color: khaki;
+  color: darkgoldenrod;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+h1 {
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+}
+.btn {
+  padding: 0 3rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  border: 2px solid brown;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 1rem auto;
+  line-height: 1.6;
+  color: brown;
+}
+.refresh-btn {
+  background-color: darkgoldenrod;
+  color: khaki;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  border: 2px solid darkgoldenrod;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+.tour,
+.img,
+.img img {
+  max-width: 620px;
+  width: 80vw;
+}
+.showBtn {
+  border: transparent;
+  background-color: transparent;
+  color: darkcyan;
+  cursor: pointer;
+  font-size: 0.8rem;
+}

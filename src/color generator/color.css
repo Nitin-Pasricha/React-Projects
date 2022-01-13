@@ -1,0 +1,79 @@
+body {
+  background: hsl(197, 47%, 82%);
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  height: 100px;
+}
+header h3 {
+  margin-left: 1rem;
+  line-height: 1.6;
+  font-size: 1.25rem;
+  width: 100px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+form {
+  margin-left: 2rem;
+  display: flex;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border: transparent;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border: transparent;
+  height: 30px;
+  background-color: rgb(47, 131, 241);
+  color: white;
+  border-radius: 0 0.2rem 0.2rem 0;
+  font-size: 0.9rem;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+}
+button:hover {
+  background-color: rgb(19, 111, 231);
+}
+.color-container {
+  display: grid;
+  min-height: 90vh;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(110px, 1fr));
+  margin: 1rem;
+  background: hsl(210, 36%, 96%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.color {
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.red {
+  border: 2px solid rgb(211, 4, 4);
+}
+
+/* 697,912,1135 */
+@media screen and (min-width: 620px) {
+  header h3 {
+    font-size: 2rem;
+    width: fit-content;
+  }
+  input {
+    width: 270px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 1.2rem;
+    height: 40px;
+  }
+}

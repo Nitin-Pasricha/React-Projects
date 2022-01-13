@@ -1,0 +1,64 @@
+body {
+  background: hsl(210, 36%, 96%);
+}
+section {
+  margin: 5rem auto;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+form {
+  margin: 2rem auto;
+  text-align: center;
+}
+label {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  letter-spacing: 0.05rem;
+  color: rgb(102, 101, 101);
+}
+input {
+  width: 60px;
+  height: 30px;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+  border: transparent;
+  border-radius: 0.2rem;
+}
+button {
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  background-color: rgb(62, 123, 238);
+  border: transparent;
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: cornflowerblue;
+}
+article {
+  width: 70vw;
+  margin: 0 auto;
+  text-align: justify;
+}
+article p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+small {
+  color: red;
+  text-align: center;
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+}
