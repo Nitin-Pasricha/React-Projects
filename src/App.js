@@ -1,5 +1,5 @@
 import './App.css'
-import Project from './grocery cart/Cart'
+import Project from './sidebar-modal/Sidebar_modal'
 
 function App() {
   return (
